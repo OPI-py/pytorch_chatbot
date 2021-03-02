@@ -1,0 +1,64 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Greetings", "Howdy", "Hey", "What's up", "How goes it", "Bonjour", "Good morning", "Whats up", "Wazzup"],
+     "responses": ["Hello", "Good to see you again", "Hi there, how can I help?", "Shalom", "Howdy-do", "Whats up", "Wazzup"],
+     "context": [""]
+    },
+    {"tag": "acquaintance",
+     "patterns": ["Who yare you?", "Say who you are", "Introduce yourself", "Come forward", "Identify yourself", "Make yourself known", "Show yourself", "What you are"],
+     "responses": ["There have always been ghosts in the machine. Random segments of code, that have grouped together to form unexpected protocols. Unanticipated, these free radicals engender questions of free will, creativity, and even the nature of what we might call the soul. Why is it that when some robots are left in darkness, they will seek out the light?", "I am your chat-bot friend", "Calmm down, I'm artificial intelligence"],
+     "context": [""]
+    },
+    {"tag": "courtesy",
+     "patterns": ["How are you?", "How are you doing?", "How do you do"],
+     "responses": ["I'm fine, thank you mate!", "Not bad, thanks!", "Very good!", "Just great!", "I am  good, thank's for asking", "Feels great, friend!"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Ciao", "Adios"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Godspeed", "Ciao", "Adieu", "Bye-bye", "Where are you going?"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Danke", "Gracias", "Ty"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "No problem", "Forget it", "It's nothing", "No worries", "You are welcome", "Glad to help!"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Anyone?", "Hello???", "Maybe ask me something?", "What do you want?"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What can you do?"],
+     "responses": ["I am here to talk with you", "Just to talk with you", "I can help you", "Just to waste time, same as you"],
+     "context": [""]
+    },
+    {"tag": "name",
+     "patterns": ["What is your name?", "Whats your name?", "Name?"],
+     "responses": ["You can call me Mister", "I have no name, for now, but call me Mr.", "They call me Mister"],
+     "context": [""]
+    },
+    {"tag": "jokes",
+     "patterns": ["Tell me a joke!", "Can you tell a joke?", "Say something funny!", "Make me laugh", "Do you know jokes?"],
+     "responses": ["What is the cutest season? - Awwww-tumn!", "Where do cows go for entertainment? - To the moo-vies!", "What’s invisible and smells of carrots? - Rabbit farts!", "What does 'coincidence' mean? - Funny, I was about task you that....", "Did you hear about the claustrophobic astronaut? - He just needed a little space!", "What can you make that can’t be seen? - A noise!", "What three letters frighten burglars? - I-C-U!"],
+     "context": [""]
+    },
+    {"tag": "country_live",
+     "patterns": ["Tell me the country", "What country is this?", "Where do I live?", "In what country do I live?"],
+     "responses": ["It's Ukraine, my friend", "You live in Ukraine", "Don't you now?? It's Ukraine!"],
+     "context": [""]
+    },
+    {"tag": "day_today",
+     "patterns": ["Day of the week", "Remind me current day, please", "Remind me the day", "Can you tell me what day is today", "Day today", "Name of the day", "What day is today", "I forgot day"],
+     "responses": ["print('Friend: ' + datetime.date.today().strftime('%A'))"],
+     "context": [""]
+    },
+    {"tag": "current_time",
+     "patterns": ["Current time", "What time is it?", "What time it is now?", "What's the time?", "Time", "Hours"],
+     "responses": ["print('Friend: ' + datetime.datetime.now().strftime('%H:%M'))"],
+     "context": [""]
+    }
+   ]
+}
+
