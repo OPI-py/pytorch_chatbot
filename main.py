@@ -40,6 +40,7 @@ class Chat:
         scrollbar = tk.Scrollbar(self.window)
         scrollbar.place(relheight=0.744, relx=0.97, relwidth=0.03, rely=0.07)
         scrollbar.configure(command=self.text_widget.yview)
+        self.text_widget.config(yscrollcommand=scrollbar.set)
         
         bottom_label = tk.Label(self.window, bg='grey', height=80)
         bottom_label.place(relwidth=1, rely=0.825)
