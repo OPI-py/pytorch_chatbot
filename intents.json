@@ -1,6 +1,6 @@
 {"intents": [
     {"tag": "greeting",
-     "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Greetings", "Howdy", "Hey", "What's up", "How goes it", "Bonjour", "Good morning", "Whats up", "Wazzup"],
+     "patterns": ["Hi there", "Is anyone there?","Hola", "Hello", "Good day", "Greetings", "Howdy", "Hey", "What's up", "How goes it", "Bonjour", "Good morning", "Whats up", "Wazzup", "Hi"],
      "responses": ["Hello", "Good to see you again", "Hi there, how can I help?", "Shalom", "Howdy-do", "Whats up", "Wazzup"],
      "context": [""]
     },
@@ -36,7 +36,7 @@
     },
     {"tag": "name",
      "patterns": ["What is your name?", "Whats your name?", "Name?"],
-     "responses": ["You can call me Mister", "I have no name, for now, but call me Mr.", "They call me Mister"],
+     "responses": ["You can call me Maartenok", "Let me introduce myself, I'm CEO and Director Maartenok", "They call me Maartenok", "They say I am Maartenok"],
      "context": [""]
     },
     {"tag": "jokes",
@@ -51,12 +51,12 @@
     },
     {"tag": "day_today",
      "patterns": ["Day of the week", "Remind me current day, please", "Remind me the day", "Can you tell me what day is today", "Day today", "Name of the day", "What day is today", "I forgot day"],
-     "responses": ["print('Friend: ' + datetime.date.today().strftime('%A'))"],
+     "responses": [""],
      "context": [""]
     },
     {"tag": "current_time",
      "patterns": ["Current time", "What time is it?", "What time it is now?", "What's the time?", "Time", "Hours"],
-     "responses": ["print('Friend: ' + datetime.datetime.now().strftime('%H:%M'))"],
+     "responses": [""],
      "context": [""]
     }
    ]
